@@ -23,18 +23,19 @@ header{
     background: green;
 }
 
-.navigatie ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    padding: 0;
+.navigatie{
     float: right;
+}
+
+.navigatie ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .navigatie a{
     color: white;
     text-decoration: none;
-    padding: 15px;
     display: block;
 }
 
