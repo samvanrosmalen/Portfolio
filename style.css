@@ -1,5 +1,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-image: url(./fotos/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .navigatie ul{
