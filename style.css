@@ -33,13 +33,24 @@ header{
     list-style: none;
 }
 
+.navigatie li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 25px;
+}
+
 .navigatie a{
     color: white;
     text-decoration: none;
     display: block;
 }
 
+.navigatie a:hover{
+    color: black;
+}
+
 .logo{
     float: left;
+    padding: 23px 0;
 }
 
