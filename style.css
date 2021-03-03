@@ -1,10 +1,26 @@
 body{
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    background-image: url(./fotos/banner.jpg);
+    background-image: url(./img/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header{
+    background: green;
 }
 
 .navigatie ul{
@@ -12,9 +28,17 @@ body{
     list-style: none;
     justify-content: space-between;
     padding: 0;
+    float: right;
 }
 
 .navigatie a{
     color: white;
     text-decoration: none;
+    padding: 15px;
+    display: block;
 }
+
+.logo{
+    float: left;
+}
+
