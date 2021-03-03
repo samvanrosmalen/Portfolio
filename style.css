@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    color: white;
     background-image: url(./fotos/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,4 +12,9 @@ body{
     list-style: none;
     justify-content: space-between;
     padding: 0;
+}
+
+.navigatie a{
+    color: white;
+    text-decoration: none;
 }
