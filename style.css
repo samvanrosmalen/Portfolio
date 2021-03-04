@@ -34,7 +34,7 @@ header::after{
 .navigatie li{
     display: inline-block;
     margin-left: 30px;
-    padding-top: 25px;
+    padding-top: 50px;
 }
 
 .navigatie a{
@@ -43,22 +43,18 @@ header::after{
     display: block;
 }
 
-.navigatie a:hover{
-    color: black;
-}
-
 .logo{
     float: left;
-    padding: 23px 0;
+    padding: 0px 0;
+    
+
 }
 
-.navigatie ul li a:hover{
-    color:#91640F;
+img.logo{
+   width: 10%;
 }
 
-.navigatie ul li a:after{
-    display: ;
-}
+
 .textcontainer{
     position: absolute;
     transform: translate(-50%, -50%);
