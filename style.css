@@ -43,6 +43,10 @@ header::after{
     display: block;
 }
 
+.navigatie a:hover{
+    color: red;
+}
+
 .logo{
     float: left;
     padding: 0px 0;
