@@ -19,9 +19,7 @@ header::after{
     clear: both;
 }
 
-header{
-    background: green;
-}
+
 
 .navigatie{
     float: right;
@@ -54,3 +52,25 @@ header{
     padding: 23px 0;
 }
 
+.navigatie ul li a:hover{
+    color:#91640F;
+}
+
+.navigatie ul li a:after{
+    display: ;
+}
+.textcontainer{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+h1#title{
+   font-size: 70px;
+}
+
+p#undertitle{
+    text-align: center;
+    font-size: 20px;
+}
