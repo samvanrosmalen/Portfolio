@@ -94,3 +94,18 @@ h1#titleover{
 p#content{
     text-align: left;
 }
+
+.socialscontainer{
+    
+    width: 500px;
+    height: 200px;
+    position: fixed;
+    left: 50%;
+    top: 85%;
+}
+
+.socialbutton{
+    
+    width: 60px;
+    height: auto;
+}
