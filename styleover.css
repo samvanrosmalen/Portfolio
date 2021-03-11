@@ -4,7 +4,8 @@
 }
 
 body{
-    margin: 0;
+    width: 100%;
+    margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
@@ -60,52 +61,65 @@ img.logo{
    
 }
 
+.paginacontent{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
 .aboutcontainer{
-    background-color: yellow;
-    width: 500px;
-    height: 300px;
+    
+    width: 30%;
+    height: auto;
     position: absolute;
     left: 13%;
     top: 20%;
     text-align: center;
+    
 }
 
 .fotocontainer{
     
-    width: 500px;
-    height: 300px;
-    position: fixed;
+    width: 30%;
+    height: auto;
+    position: absolute;
     left: 50%;
     top: 20%;
+    
 }
 
 .fotome{
     
     
-    width: 500px;
+    width: 100%;
     height: auto;
     border-radius: 2ch;
+    padding: 0;
+    
 }
 
 h1#titleover{
     text-align: center;
 }
 
-p#content{
-    text-align: left;
+p#sign{
+    font-family:'Mr Dafoe', cursive;
+    font-size: 40px;
 }
 
 .socialscontainer{
     
-    width: 500px;
-    height: 200px;
-    position: fixed;
+    width: 50%;
+    height: auto;
+    position: absolute;
     left: 50%;
     top: 85%;
+    padding-top: 2%;
+    
 }
 
 .socialbutton{
     
-    width: 60px;
+    width: 8%;
     height: auto;
+    
 }
