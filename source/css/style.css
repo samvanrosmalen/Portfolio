@@ -156,16 +156,21 @@ h1.subpagetitle{
     height: 200px;
     width: 350px;
     border: none;
-
+    border-radius: 10px;
+    opacity: 75%;
+    color: white;
     transition: all 0.3s ease-in-out;
 }
 
 .lbuttons:hover{
     transform: scale(1.1);
+    opacity: 100%;
+    font-size: 20px;
+    
 }
 
 #buttonIM{
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/interactivemedia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
