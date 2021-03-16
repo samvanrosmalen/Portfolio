@@ -105,6 +105,7 @@ img.logo{
 
 h1#titleover{
     text-align: center;
+    font-size: 40px;
 }
 
 p#sign{
@@ -139,7 +140,8 @@ p#sign{
 h1.subpagetitle{
     margin-left: 10%;
     margin-top: 5%;
-    
+    margin-bottom: 3%;
+    font-size: 40px;
 }
 
 .leeruitkomstbuttons{
@@ -157,20 +159,40 @@ h1.subpagetitle{
     width: 350px;
     border: none;
     border-radius: 10px;
-    opacity: 75%;
+    opacity: 60%;
     color: white;
+    font-size: 20px;
+    text-shadow: 2px 1px black;
     transition: all 0.3s ease-in-out;
 }
 
 .lbuttons:hover{
     transform: scale(1.1);
     opacity: 100%;
-    font-size: 20px;
+    font-size: 40px;
     
 }
+
+
 
 #buttonIM{
     background-image: url(../img/interactivemedia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+
+#buttonDEV{
+    background-image: url(../img/development.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#buttonDS{
+    background-image: url(../img/design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
 }
