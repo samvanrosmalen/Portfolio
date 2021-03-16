@@ -155,4 +155,17 @@ h1.subpagetitle{
     margin: 15px;
     height: 200px;
     width: 350px;
+    border: none;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.lbuttons:hover{
+    transform: scale(1.1);
+}
+
+#buttonIM{
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
