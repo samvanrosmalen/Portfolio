@@ -9,6 +9,7 @@ body{
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     color: black;
+    
 }
 
 .container{
@@ -109,7 +110,7 @@ img.logo{
 
 h1#titleover{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 p#sign{
@@ -142,14 +143,15 @@ p#sign{
 /* Leeruitkomsten pagina */
 
 h1.subpagetitle{
-    margin-left: 10%;
+    margin-left: 4.2%;
     margin-top: 5%;
     margin-bottom: 3%;
-    font-size: 40px;
+    font-size: 50px;
+    
 }
 
 .leeruitkomstbuttons{
-    margin-left: 10%;
+    margin-left: 3.7%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -159,8 +161,8 @@ h1.subpagetitle{
 .lbuttons{
     width: 33%;
     margin: 15px;
-    height: 200px;
-    width: 350px;
+    height: 250px;
+    width: 400px;
     border: none;
     border-radius: 10px;
     opacity: 60%;
@@ -208,34 +210,91 @@ h1.subpagetitle{
 .leeruitkomst-kolom1{
     display: flex;
     flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
     
 }
 
 .imglinks-leeruitkomst{
-    margin-left: 10%;
+    margin-left: 4.2%;
     width: 50%;
-    
+    border-radius: 2ch;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
 }
 
 .imgrechts-leeruitkomst{
     width: 50%;
+    border-radius: 2ch;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
 }
 
 .beschrijvingrechts{
-    background-color: blue;
     width: 50%;
     margin-left: 10px;
+    text-align: center;
+    padding: 90px;
 }
 
 .beschrijvinglinks{
-    background-color: blue;
     width: 50%;
     margin-right: 10px;
-    margin-left: 10%;
+    margin-left: 4.2%;
+    text-align: center;
+    padding: 90px;
+    
 }
 
 .leeruitkomst-kolom2{
     display: flex;
     flex-direction: row;
-    margin-top: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
+
+h1.titelblok{
+    margin-bottom: 2.5%;
+}
+.button1{
+    margin-top: 7.5%;
+    width: 50%;
+    height: 20%;
+    border-radius: 2ch;
+    border-style: solid;
+    border-color: black;
+    background-color: transparent;
+    font-size: 15px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.button1:hover{
+    transform: scale(1.3);
+    border-color: red;
+    color: red;
+}
+
+
+.button {background-image: linear-gradient(to right, #ff0800 0%, #b31217  51%, #e52d27  100%)}
+.button {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 2ch;
+   border-style: none;
+   font-size: 15px;
+   margin-top: 10%;
+   cursor: pointer;
+   
+ }
+
+ .button:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
