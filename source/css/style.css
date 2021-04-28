@@ -101,9 +101,9 @@ img.logo{
     
     width: 100%;
     height: auto;
-    /* border-radius: 2ch; */
+    border-radius: 2ch;
     padding: 0;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 
@@ -201,4 +201,41 @@ h1.subpagetitle{
     background-size: cover;
 
     
+}
+
+/* leeruitkomsten pagina's indeling */
+
+.leeruitkomst-kolom1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.imglinks-leeruitkomst{
+    margin-left: 10%;
+    width: 50%;
+    
+}
+
+.imgrechts-leeruitkomst{
+    width: 50%;
+}
+
+.beschrijvingrechts{
+    background-color: blue;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.beschrijvinglinks{
+    background-color: blue;
+    width: 50%;
+    margin-right: 10px;
+    margin-left: 10%;
+}
+
+.leeruitkomst-kolom2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
 }
