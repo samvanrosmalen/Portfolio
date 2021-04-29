@@ -75,6 +75,59 @@ img.logo{
     margin: auto;
 }
 
+/* Animatie logo */
+  
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 300px;
+    height: auto;
+    /* margin: 0 auto; */
+    font-style: unset;
+    float: left;
+    padding: 0px 0;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #c92525;
+    animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+    stroke: #840037;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+    stroke: #BD0034;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+    stroke: #BD0034;
+    animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+    stroke: #9c1313;
+    animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+    100% {stroke-dashoffset: -35%;}
+}
+
+
+
 /* Over pagina */
 .aboutcontainer{
     
