@@ -263,6 +263,24 @@ h1.subpagetitle{
     background-size: cover;
 }
 
+#buttonRS{
+    background-image: url(../img/);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#buttonCOM{
+    background-image: url(../img/);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#buttonPI{
+    background-image: url(../img/);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* leeruitkomsten pagina's indeling */
 
 .leeruitkomst-kolom1{
