@@ -244,25 +244,23 @@ h1.subpagetitle{
 
 
 #buttonIM{
-    background-image: url(../img/interactivemedia.jpg);
+    background-image: url(../img/);
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 
 #buttonDEV{
-    background-image: url(../img/development.jpg);
+    background-image: url(../img/);
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 
 #buttonDS{
-    background-image: url(../img/design.jpg);
+    background-image: url(../img/rubyhanden.png);
     background-repeat: no-repeat;
     background-size: cover;
-
-    
 }
 
 /* leeruitkomsten pagina's indeling */
