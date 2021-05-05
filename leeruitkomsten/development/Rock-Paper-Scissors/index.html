@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/source/css/style.css">
+    <link rel="stylesheet" href="/source/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Development - Sam van Rosmalen</title>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="container">
+        <header class="animate__animated animate__fadeInDown">
+            <a href="/index.html">
+                <!-- <img src="/source/img/logoblack.png" alt="logo" class ="logo"> -->
+                <svg viewBox="0 0 960 300">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">SvR.</text>
+                    </symbol>
+                
+                    <g class = "g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+            </a>
+            <nav class="navigatie">
+                <ul>
+                    <li><a href="/over/">Over</a></li>
+                    <li><a href="/leeruitkomsten/">Leeruitkomsten</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="paginacontent">
+        <h1 class="subpagetitle" data-aos="fade-right" data-aos-offset="300">Rock Paper Scissors</h1>
+        <p class="subpagep">Voor deze POC ben ik het spel steen-papier-schaar gaan maken. Voordat ik begon ben ik eerst wat kennis gaan opdoen op verstillende websites als w3schools. Ook ben ik wat gaan lezen over JavaScript omdat dit voor mij nog een compleet onbekende programmeertaal was. Ik heb van dit spel 2 versies gemaakt, 1 hele simpele versie en 1 mooiere versie aan de hand van een tutorial waarvan ik veel heb geleerd.</p>
+        <button class="buttongit">Github</button>
+        <button class="buttondemo">Demo</button>
+        <div class="leeruitkomst-kolom1" data-aos="fade-right" data-aos-offset="300">
+            <img class="imglinks-leeruitkomst" src="/source/img/development.jpg" alt="">
+            <div class="beschrijvingrechts">
+                <h1 class="titelblok">Structuur</h1>
+                <p class="leeruitkomstbeschrijving">Ik heb een eerst een HTML-bestand gemaakt, doordat ik in semester 1 al websites heb gemaakt voor onze proftaak projecten wist ik al redelijk hoe dit in elkaar zat. Vervolgens heb ik heb eerst alles in het HTML-bestand gezet wat ik nodig had om dit daarna met CSS te positioneren en een mooi design te geven. Ik heb alle objecten die ik in mijn bestand heb gebruikt duidelijke class names gegeven zodat ik ze makkelijk kon gebruiken in mijn CSS en JavaScript bestanden.</p>
+            </div>
+        </div>
+        
+        <div class="leeruitkomst-kolom2" data-aos="fade-left" data-aos-offset="300">
+            <div class="beschrijvinglinks">
+                <h1 class="titelblok">Opmaak</h1>
+                <p class="leeruitkomstbeschrijving">Voor de opmaak ben ik wat gaan spelen met functies en groottes van objecten, doordat ik in het 1e semester nog gebruik maakte van website templates had ik nog niet heel veel ervaring met CSS. Ik heb daarom veel kennis opgedaan op de website van w3schools en de meetings van Frank en Bernd-Jan. Iets waar ik ook nog geen verstand van had waren animaties. Om het spel realistischer te laten lijken werd er een animatie gebruikt om de handen te laten schudden, dit werd gedaan doormiddel van de transform functie met keyframes. Door dit toe te passen heb ik flink wat kennis opgedaan voor het gebruik van CSS-animaties.</p>
+            </div>
+            <img class="imgrechts-leeruitkomst" src="/source/img/Rock-paper-scissors/rpsgame.png" alt="">
+        </div>
+
+        <div class="leeruitkomst-kolom1" data-aos="fade-right" data-aos-offset="300">
+            <img class="imglinks-leeruitkomst" src="/source/img/development.jpg" alt="">
+            <div class="beschrijvingrechts">
+                <h1 class="titelblok">Functies</h1>
+                <p class="leeruitkomstbeschrijving">Alle functies van dit spel zijn gemaakt in JavaScript, omdat ik hier nog vrij weinig verstand van had heb ik de keuze gemaakt om voor deze opdracht een tutorial te gebruiken met een duidelijke uitleg erbij. Door dit op deze manier te doen heb ik veel meer geleerd over JavaScript zoals het werken met variabelen en het aanroepen van classes uit andere bestanden.
+
+                    Nadat ik het spel werkende had ben ik met mezelf de uitdaging aangegaan om zelf nog een functie toe te voegen, namelijk een reset functie. Na wat nadenken en testen ben ik er vrij snel uitgekomen door de kennis die ik had opgedaan tijdens het maken van deze POC.
+                    </p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/source/javasript/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

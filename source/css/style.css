@@ -296,14 +296,14 @@ h1.subpagetitle{
     width: 50%;
     border-radius: 2ch;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .imgrechts-leeruitkomst{
     width: 50%;
     border-radius: 2ch;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .beschrijvingrechts{
@@ -350,10 +350,61 @@ h1.titelblok{
    margin-top: 5%;
    cursor: pointer;
    
- }
+}
 
- .button:hover {
+.button:hover {
    background-position: right center;
    color: #fff;
    text-decoration: none;
+}
+
+/* leertuitkomsten pagina's */
+.subpagep{
+     margin-left: 4.2%;
+     margin-right: 50%;
+}
+
+.buttongit {background-image: linear-gradient(to right, #ff0800 0%, #b31217  51%, #e52d27  100%)}
+.buttongit{
+    margin-left: 4.2%;
+    padding: 15px 45px;
+    text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 2ch;
+   border-style: none;
+   font-size: 15px;
+   margin-top: 5%;
+   cursor: pointer;
+}
+
+.buttongit:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.buttondemo {background-image: linear-gradient(to right, #ff0800 0%, #b31217  51%, #e52d27  100%)}
+.buttondemo{
+    margin-left: 2%;
+    padding: 15px 45px;
+    text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 2ch;
+   border-style: none;
+   font-size: 15px;
+   margin-top: 5%;
+   cursor: pointer;
+}
+
+.buttondemo:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
  }
+
