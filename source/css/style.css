@@ -201,6 +201,10 @@ p#sign{
 
 /* Leeruitkomsten pagina */
 
+.paginacontent{
+    margin-bottom: 5%;
+}
+
 h1.subpagetitle{
     margin-left: 4.2%;
     margin-top: 5%;
@@ -359,14 +363,21 @@ h1.titelblok{
 }
 
 /* leertuitkomsten pagina's */
-.subpagep{
-     margin-left: 4.2%;
-     margin-right: 50%;
+.leeruitkomstheader{
+    margin-left: 4.2%;
+    width: 50%;
 }
+
+h1.subpagetitleLU{
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
+
 
 .buttongit {background-image: linear-gradient(to right, #ff0800 0%, #b31217  51%, #e52d27  100%)}
 .buttongit{
-    margin-left: 4.2%;
+    
     padding: 15px 45px;
     text-align: center;
    transition: 0.5s;
@@ -406,5 +417,21 @@ h1.titelblok{
     background-position: right center;
     color: #fff;
     text-decoration: none;
- }
+}
 
+.kolomgeleerd{
+    width: 50%;
+    margin-left: 4.2%;
+    margin-bottom: 2.5%;
+}
+
+.kolombeter{
+    width: 50%;
+    margin-left: 4.2%;
+    margin-top: 2.5%;
+}
+
+h1#LUkolom45{
+    font-size: 40px;
+    margin-bottom: 2.5%;
+}
