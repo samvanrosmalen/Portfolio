@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+
+    <button onclick="Rock()">Rock</button>
+    <button onclick="Paper()">Paper</button>
+    <button onclick="Scissors()">Scissors</button>
+
+    <p id="uitkomst"></p>
+
+    <script>
+
+        var options = ["Rock", "Paper", "Scissors"];
+
+        function Rock(){
+            document.getElementById("uitkomst").innerHTML = options[Math.floor(Math.random() * options.length)];
+        }
+
+        function Paper(){
+            document.getElementById("uitkomst").innerHTML = options[Math.floor(Math.random() * options.length)];
+        }
+
+        function Scissors(){
+            document.getElementById("uitkomst").innerHTML = options[Math.floor(Math.random() * options.length)];
+        }
+    </script>
+</body>
+</html>
