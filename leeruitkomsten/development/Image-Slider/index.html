@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/source/css/style.css">
+    <link rel="stylesheet" href="/source/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Image Slider - Sam van Rosmalen</title>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="container">
+        <header class="animate__animated animate__fadeInDown">
+            <a href="/index.html">
+                <!-- <img src="/source/img/logoblack.png" alt="logo" class ="logo"> -->
+                <svg viewBox="0 0 960 300">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">SvR.</text>
+                    </symbol>
+                
+                    <g class = "g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+            </a>
+            <nav class="navigatie">
+                <ul>
+                    <li><a href="/over/">Over</a></li>
+                    <li><a href="/leeruitkomsten/">Leeruitkomsten</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="paginacontent">
+        <div class="leeruitkomstheader" data-aos="fade-right" data-aos-offset="300">
+            <h1 class="subpagetitleLU">Image Slider</h1>
+            <p class="subpagep">Voor mijn eerste POC ben ik een Image Slider gaan maken, hiervoor heb ik gebruik gemaakt van de opdracht en uitleg op canvas. Met het maken van deze opdracht heb ik wat basis kennis opgedaan van JavaScript.</p>
+        </div>
+        <div class="demobuttons" data-aos="fade-right" data-aos-offset="300">
+            <a href="https://github.com/samvanrosmalen/Image-slider" target="_blank"><button class="buttongit">Github</button></a>
+            <a href="/leeruitkomsten/development/Image-Slider/demo/" target="_blank"><button class="buttondemo">Demo</button></a> 
+        </div>
+        
+        
+        
+        
+        <div class="leeruitkomst-kolom1" data-aos="fade-right" data-aos-offset="300">
+            <img class="imglinks-leeruitkomst" src="/source/img/Image Slider/imgslidercode1.png" alt="">
+            <div class="beschrijvingrechts">
+                <h1 class="titelblok">Structuur</h1>
+                <p class="leeruitkomstbeschrijving">Ik heb in HTML 2 foto’s gezet deze heb ik vervolgens met CSS-code over elkaar heen gezet. Door alles duidelijke class names te geven was het makkelijk om alles weer terug te halen in JavaScript.</p>
+            </div>
+        </div>
+        
+        <div class="leeruitkomst-kolom2" data-aos="fade-left" data-aos-offset="300">
+            <div class="beschrijvinglinks">
+                <h1 class="titelblok">Opmaak</h1>
+                <p class="leeruitkomstbeschrijving">Ik heb voor deze POC vrijwel niks aan de opmaak gedaan omdat de POC meer om de functie gaat en niet om de opmaak. Het enige wat ik heb gedaan is een titel boven de foto gezet.</p>
+            </div>
+            <img class="imgrechts-leeruitkomst" src="/source/img/Image Slider/imgslider.png" alt="">
+        </div>
+
+        <div class="leeruitkomst-kolom1" data-aos="fade-right" data-aos-offset="300">
+            <img class="imglinks-leeruitkomst" src="/source/img/Image Slider/imgslidercode2.png" alt="">
+            <div class="beschrijvingrechts">
+                <h1 class="titelblok">Functies</h1>
+                <p class="leeruitkomstbeschrijving">In JavaScript heb ik de foto’s die ik wilde gebruiken voor mijn slider in een array gezet, vervolgens heb ik een functie gemaakt waardoor de front image en back image over elkaar heen faden. Als bijvoorbeeld de front image in beeld is veranderd de back image op de achtergrond naar een andere foto uit de array.</p>
+            </div>
+        </div>
+
+        <div class="kolomgeleerd" data-aos="fade-right" data-aos-offset="200">
+            <h1 id="LUkolom45">Wat heb ik geleerd?</h1>
+            <p>Ik heb geleerd om met JavaScript op een best makkelijke manier een image slider te maken, hierdoor is mijn kennis van JavaScript weer iets omhooggegaan.</p>
+        </div>
+
+        <div class="kolombeter" data-aos="fade-right" data-aos-offset="100">
+            <h1 id="LUkolom45">Wat kon beter?</h1>
+            <p>Ik had meer tijd aan de opmaak kunnen besteden waardoor de image slider er beter uitzag.</p>
+        </div>
+    </div>
+    
+    <script src="/source/javasript/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
