@@ -29,9 +29,11 @@ window.addEventListener("scroll", scrollFunction);
 
 function scrollFunction(){
     if (window.pageYOffset > 300) {
+        backToTopButton.classList.add("btnEntrance");
         backToTopButton.style.display = "block";
     }
     else {
+        backToTopButton.classList.add("btnExit");
         backToTopButton.style.display = "none";
     }
 }
