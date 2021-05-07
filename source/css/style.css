@@ -284,11 +284,12 @@ h1.subpagetitle{
     width: 400px;
     border: none;
     border-radius: 10px;
-    opacity: 60%;
+    /* opacity: 60%; */
     cursor: pointer;
-    color: white;
-    font-size: 20px;
-    text-shadow: 2px 1px black;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    /* text-shadow: 2px 1px black; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.3s ease-in-out;
     
@@ -297,7 +298,8 @@ h1.subpagetitle{
 .lbuttons:hover{
     transform: scale(1.1);
     opacity: 100%;
-    font-size: 40px;
+    font-size: 32px;
+    color: white;
     
 }
 
@@ -305,6 +307,8 @@ h1.subpagetitle{
 
 #buttonIM{
     background-image: url(../img/);
+    background-color: #c92525;
+    background-image: linear-gradient(164deg, #c92525 0%, #840037 1%, #bd0034 66%, #9c1313 100%);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -312,31 +316,41 @@ h1.subpagetitle{
 
 #buttonDEV{
     background-image: url(../img/);
+    background-color: #c92525;
+    background-image: linear-gradient(180deg, #c92525 0%, #840037 1%, #bd0034 66%, #9c1313 100%);
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 
 #buttonDS{
-    background-image: url(../img/rubyhanden.png);
+    /* background-image: linear-gradient(to right, #ff0800 0%, #b31217  51%, #e52d27  100%);  */
+    background-color: #c92525;
+    background-image: linear-gradient(194deg, #c92525 0%, #840037 1%, #bd0034 66%, #9c1313 100%);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #buttonRS{
-    background-image: url(../img/goose.png);
+    /* background-image: url(../img/goose.png); */
+    background-color: #c92525;
+    background-image: linear-gradient(16deg, #c92525 0%, #840037 1%, #bd0034 66%, #9c1313 100%);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #buttonCOM{
     background-image: url(../img/);
+    background-color: #c92525;
+    background-image: linear-gradient(0deg, #c92525 0%, #840037 1%, #bd0034 66%, #9c1313 100%);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #buttonPI{
     background-image: url(../img/);
+    background-color: #c92525;
+    background-image: linear-gradient(344deg, #c92525 0%, #840037 1%, #bd0034 66%, #9c1313 100%);
     background-repeat: no-repeat;
     background-size: cover;
 }
