@@ -163,15 +163,16 @@ svg:hover{
     animation-name: btnEntrance;
 }
 
-@keyframes btnEntrance{
-    from{
-        opacity: 0;
-        transform: scale3d(0.3, 0.3, 0.3);
+@keyframes btnEntrance {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
     }
-    to{
-        opacity: 1;
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
     }
-}
+  }
 
 .btnExit{
     animation-duration: 0.25s;
@@ -185,7 +186,7 @@ svg:hover{
     }
     to{
         opacity: 0;
-        transform: scale3d(0.3, 0.3, 0.3);
+        transform: translate3d(0, 100%, 0);
     }
 }
 
