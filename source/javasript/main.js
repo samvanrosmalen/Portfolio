@@ -20,3 +20,24 @@ document.addEventListener('click', () =>{
         cursor.classList.remove("expand");
     }, 500)
 })
+
+// back to top button
+
+const backToTopButton = document.querySelector("#backtotopbtn");
+
+window.addEventListener("scroll", scrollFunction);
+
+function scrollFunction(){
+    if (window.pageYOffset > 300) {
+        backToTopButton.style.display = "block";
+    }
+    else {
+        backToTopButton.style.display = "none";
+    }
+}
+
+backToTopButton.addEventListener("click", backToTop);
+
+function backToTop(){
+    window.scrollTo(0, 0);
+}
