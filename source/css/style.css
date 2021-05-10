@@ -380,6 +380,10 @@ h1.subpagetitle{
     /* cursor: pointer; */
 }
 
+#laatsteleeruitkomst{
+    margin-bottom: 100px;
+}
+
 .beschrijvingrechts{
     width: 50%;
     margin-left: 10px;
