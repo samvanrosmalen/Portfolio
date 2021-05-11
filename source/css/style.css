@@ -209,10 +209,11 @@ svg:hover{
 .fotocontainer{
     
     width: 30%;
-    height: auto;
+    height: 80%;
     position: absolute;
     left: 50%;
     top: 20%;
+    text-align: center;
     
 }
 
@@ -237,26 +238,15 @@ p#sign{
     font-size: 40px;
 }
 
-.socialscontainer{
-    
-    width: 50%;
-    height: auto;
-    position: absolute;
-    left: 50%;
-    top: 85%;
-    padding-top: 2%;
-    
-}
-
 .socialbutton{
-    
-    width: 8%;
-    height: auto;
-    transition: all 0.3s ease-in-out;
-    
+    color: black;
+    text-align: center;
+    font-size: 70px;
+    padding-right: 15px;
+    transition: all 0.3s ease-in-out; 
 }
 .socialbutton:hover{
-    transform: scale(1.3);
+    color: red;
 }
 
 /* Leeruitkomsten pagina */
