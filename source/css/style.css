@@ -261,9 +261,26 @@ p#sign{
     margin-bottom: 5%;
 }
 
+.backknopregel{
+    margin-top: 5%;
+    margin-left: 4.2%;
+    color: grey;
+    text-decoration: none;
+}
+
+#vorigepagina{
+    text-decoration: none;
+    color: grey;
+}
+
+#huidigepagina{
+    text-decoration: none;
+    color: red;
+}
+
 h1.subpagetitle{
     margin-left: 4.2%;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 3%;
     font-size: 50px;
     
