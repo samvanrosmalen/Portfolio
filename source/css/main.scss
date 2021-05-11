@@ -8,8 +8,8 @@ body{
     border: 1px solid red;
     border-radius: 50%;
     position: absolute;
-    transition-duration: 200ms;
-    transition-timing-function: ease-out;
+    // transition-duration: 0ms;
+    // transition-timing-function: ease-out;
     animation: cursorAnimation2 .5s infinite alternate;
     z-index: 1;
     pointer-events: none;
