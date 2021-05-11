@@ -1,4 +1,8 @@
 /* Standaard waardes & navigatie */
+:root {
+    --mainColor: rgba(252, 0, 0, 0.527);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -505,6 +509,27 @@ h1.subpagetitleLU{
    font-family: 'Montserrat', sans-serif;
    margin-top: 5%;
    cursor: pointer;
+}
+
+a.linkjenaarproject{
+    /* color: black;
+    text-decoration: underline;
+    text-decoration-color: red; */
+    background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+a.linkjenaarproject:hover{
+    background-size: 4px 50px;
 }
 
 .buttondemo:hover {
