@@ -425,7 +425,7 @@ h1.subpagetitle{
 }
 
 h1.titelblok{
-    margin-bottom: 2.5%;
+    margin-bottom: 30px;
     font-size: 40px;
 }
 
@@ -443,7 +443,7 @@ h1.titelblok{
    border-style: none;
    font-size: 18px;
    font-family: 'Montserrat', sans-serif;
-   margin-top: 5%;
+   margin-top: 30px;
    cursor: pointer;
    
 }
