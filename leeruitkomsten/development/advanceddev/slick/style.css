@@ -1,0 +1,34 @@
+body{ 
+    display: inline-flex;
+    background-color: gray;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    color: white ;
+}
+#slideshow div{
+    width: 50vw;
+    
+
+
+}
+
+#slideshow img{
+   width: 50vw;
+   height: auto; 
+}
+
+#slideshow{
+    padding: 70px 0;
+    margin: 0 25vw;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}

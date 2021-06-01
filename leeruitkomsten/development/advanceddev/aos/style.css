@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    padding: 50vh 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container1{
+    background-color: orangered;
+    height: 100vh;
+}
+
+.container2{
+    background-color: orange;
+    height: 100vh;
+}
+
+.container3{
+    background-color: red;
+    height: 100vh;
+}
+
+.container4{
+    background-color: pink;
+    height: 100vh;
+}
+
+.container5{
+    background-color: orangered;
+    height: 100vh;
+}
+
+.container6{
+    background-color: orange;
+    height: 100vh;
+}

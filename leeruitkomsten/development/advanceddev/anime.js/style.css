@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;   
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.418);
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.voorbeelden{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: blue; */
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.square{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-top: 100px;
+}
+
+.cirkel{
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+#cirkel{
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+#cirkel1{
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+#cirkel2{
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.text-animation{
+    left: -500px;
+    position:relative;
+    justify-content: center;
+  font-size:80px;
+  font-weight:600;
+  color:black;
+  width:100vw;
+  height:200px;
+  text-align:center;
+  line-height:200px;
+  overflow:hidden;
+}
+
+.text-animation span {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:0;
+    text-transform:uppercase;
+    letter-spacing:5px;
+  }
