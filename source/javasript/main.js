@@ -72,8 +72,15 @@ function easeInOutCubic(t, b, c, d) {
       return c/2*(t*t*t + 2) + b;
 };
 
-
-
+//slick slider
+$('.slick').slick({
+  autoplay: true,
+  dots: true,
+  arrows: false,
+  adaptiveHeight: true,
+  autoplayspeed: 2000,
+  speed: 3000,
+});
 
 
 

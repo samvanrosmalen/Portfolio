@@ -574,3 +574,30 @@ h1#LUkolom45{
 #vptekst{
     color: red;
 }
+
+#slideshow div{
+    width: 50vw;
+    
+
+
+}
+
+#slideshow img{
+   width: 50vw;
+   height: auto; 
+}
+
+#slideshow{
+    padding: 0px 0;
+    margin: 0 1vw;
+    
+}
+
+img {
+    width: 100%;
+}
+
+.sliderlinks{
+    margin-left: 4.2%;
+    width: 50%;
+}
