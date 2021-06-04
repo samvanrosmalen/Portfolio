@@ -379,6 +379,7 @@ h1.subpagetitle{
 .imglinks-leeruitkomst{
     margin-left: 4.2%;
     width: 50%;
+    height: auto;
     border-radius: 2ch;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* cursor: pointer; */
@@ -600,4 +601,8 @@ img {
 .sliderlinks{
     margin-left: 4.2%;
     width: 50%;
+}
+
+#uxfoto1{
+    height: 500px;
 }
