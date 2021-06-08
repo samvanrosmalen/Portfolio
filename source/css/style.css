@@ -8,6 +8,9 @@
     padding: 0;
 }
 
+p{
+    line-height: 1.4;
+}
 body{
     width: 100%;
     margin: 0 auto;
@@ -399,7 +402,8 @@ h1.subpagetitle{
 .beschrijvingrechts{
     width: 50%;
     margin-left: 10px;
-    text-align: center;
+    /* text-align: center; */
+    
     padding: 90px;
 }
 
@@ -407,7 +411,7 @@ h1.subpagetitle{
     width: 50%;
     margin-right: 10px;
     margin-left: 4.2%;
-    text-align: center;
+    /* text-align: center; */
     padding: 90px;
     
 }
@@ -428,6 +432,7 @@ h1.titelblok{
 .button {background-image: linear-gradient(to right, #ff0800 0%, #b31217  51%, #e52d27  100%)}
 .button {
    margin: 10px;
+   margin-left: 0px;
    padding: 15px 45px;
    text-align: center;
    transition: 0.5s;
