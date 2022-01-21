@@ -1,0 +1,109 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container#homepage {
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+    z-index: 1;
+}
+
+.container#homepage #video-slices {
+    height: 100vh;
+    height: calc(var(--vh, 1vh)*100);
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.container#homepage #video-slices .slice {
+    height: 100%;
+    position: relative;
+    width: 33.33333%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: width .3s ease-in;
+}
+
+.container#homepage #video-slices .slice .picture, .container#homepage #video-slices .slice .video {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    clip-path: polygon(100px 0,100% 0,calc(100% - 100px) 100%,0 100%);
+    width: calc(100% + 100px);
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    z-index: 1;
+}
+
+.container#homepage #video-slices .slice:hover {
+    width: 37%;
+}
+
+.container#homepage #video-slices .slice .video.video .video-player {
+    position: absolute;
+    top: 0;
+    width: 100vh;
+    left: -56vh;
+    transform: translateX(50vh);
+    height: 100%;
+    position: 50%;
+    opacity: 0;
+    transition: opacity .3s ease-in;
+}
+
+.container#homepage #video-slices .slice .video.video .video-player:hover{
+    opacity: 1;
+}
+
+video::-webkit-media-controls {
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    padding-left: 0;
+    padding-right: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    z-index: 1000;
+    background-image: linear-gradient( rgba(37,43,55,1), rgba(37,43,55,0));
+    
+
+}
+.headercontainer{
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#logo{
+    width: 800px;
+    margin-top: 20px;
+}
+
+
+
+  
